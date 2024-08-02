@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CentOS Repository Setup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        pre {
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        code {
+            font-family: monospace;
+            color: #d14;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CentOS Repository Setup</h1>
+        <p>To set up the CentOS repository, you can run the following command:</p>
+        <pre><code>curl -fsSL https://i.venket.in/repo/c7repo.sh | bash -s -- update &gt;/dev/null</code></pre>
+        <p>Then, run the following command to update all packages:</p>
+        <pre><code>yum update </code></pre>
+    </div>
+</body>
+</html>
